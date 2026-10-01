@@ -12,6 +12,6 @@
           05 CUST-BALANCE       PIC 9(07)V99.
 
       PROCEDURE DIVISION.
-          MOVE "0123456789" TO CUT -ID.
+          MOVE "0123456789" TO CUT-ID.
           DISPLAY "CUSTOMER ID: " TO CUST-ID.
           STOP RUN.
