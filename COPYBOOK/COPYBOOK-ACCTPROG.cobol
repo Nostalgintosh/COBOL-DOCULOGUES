@@ -1,6 +1,10 @@
       IDENTIFICATION DIVISION.
       PRGRAM-ID. ACCTPRG.
       * The record structure is trapped inside this specific program
+
+      DATA DIVISION.
+      WORKING-STORAGE SECTION.
+
       01 CUSTOMER-RECORD.
           05 CUST-ID            PIC X(10).
           05 CUST-NAME          PIC X(30).
